@@ -8,6 +8,8 @@ from src.routes.user import router as user_router
 from src.routes.search_history import router as search_router
 from src.routes.chat import router as chat_router
 
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Initialize database
